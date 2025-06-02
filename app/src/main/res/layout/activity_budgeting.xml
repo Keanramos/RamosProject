@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BudgetingActivity"
+    android:background="@drawable/img_background">
+
+    <!-- Container (Centered) -->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="351dp"
+        android:layout_height="274dp"
+        android:background="@drawable/bg_container"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Budgeting Options"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Name Input -->
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_container"
+            android:backgroundTint="@color/white"
+            android:hint="Enter Name"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic" />
+
+        <!-- School Day Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_School_day"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_container"
+            android:backgroundTint="@color/white"
+            android:text="SCHOOL DAY BUDGETING"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+
+        <!-- Every Day Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_Every_day"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_container"
+            android:backgroundTint="@color/white"
+            android:text="EVERY DAY BUDGETING"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "865967977216",
+    "project_id": "ramos-project-d0296",
+    "storage_bucket": "ramos-project-d0296.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865967977216:android:f9fe29f59c6f78232d39e5",
+        "android_client_info": {
+          "package_name": "com.example.ramosproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbgAKhF84p--eHoh72j9qYDlDoRB_u54U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
